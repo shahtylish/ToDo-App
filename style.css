@@ -1,0 +1,154 @@
+body {
+    background-color: rgba( 0, 0, 0, 0.498 );
+    margin: 0;
+    padding: 0;
+}
+
+#topBar {
+    background-color: black;
+    color: darkcyan;
+/*    width: 100%;*/
+    line-height: 60px;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons{
+    font-size: 40px;
+    color: white;
+    transition: all 0.1s ease;
+}
+
+.icons:hover {
+	font-size: 45px;
+    cursor: pointer;
+}
+
+.icons:active {
+    color: maroon;
+}
+
+@media only screen and (max-width: 623px){
+    .icons {
+	font-size: 30px !important;
+}
+    .icons:hover {
+	font-size: 35px !important;
+}
+    #topBar {
+        font-size: 40px !important;
+    }
+    .getTask {
+	font-size: 20px !important;
+}
+    .editBtn {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    width: 80px !important;
+    height: 40px !important;
+    padding: 0 !important;
+}
+    #footer{
+        font-size: 15px !important;
+}
+}
+
+.twoButtons {
+    background: none;
+    background-color: none;
+    border: none;
+    cursor: default !important;
+}
+
+.twoButtons:focus {
+    outline: none;
+}
+
+#createTaskDiv {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+#textDiv {
+    
+}
+
+#add {
+    margin-top: 11px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#listDiv {
+/*    max-height: 450px;*/
+    margin-top: 40px;
+    margin-bottom: 100px;
+/*    overflow-y: scroll;*/
+    text-align: left;
+}
+
+
+#task {
+	border-bottom: 3px solid darkcyan;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    height: 50px;
+    list-style: none;
+}
+
+#getTask {
+    font-size: 24px;
+    color: black;
+}
+
+#Ebutton {
+    text-align: right;
+}
+
+.editBtn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    margin: 0px 0px 0px 5px;
+}
+
+#del {
+    font-size: 22px;
+    color: black;
+    position: relative;
+    top: 3px;
+}
+
+#footer{
+    font-size: 18px;
+    color: white;
+}
+
+#shahzaib{
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+#shahzaib:hover{
+    text-decoration-line: none;
+    color: darkturquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
